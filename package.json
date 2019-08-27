@@ -2,6 +2,7 @@
   "name": "exercise-tracker",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://github.com/AnKiTKaMbOj18/exercise-tracker",
   "dependencies": {
     "axios": "^0.19.0",
     "bootstrap": "^4.3.1",
@@ -15,7 +16,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "format": "prettier --write 'src/**/*.js|jsx'"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -31,5 +33,13 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.2",
+    "eslint": "^6.1.0",
+    "eslint-config-react": "^1.1.7",
+    "eslint-loader": "^2.2.1",
+    "eslint-plugin-react": "^7.14.3",
+    "prettier": "1.18.2"
   }
 }
